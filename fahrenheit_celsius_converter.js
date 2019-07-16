@@ -1,5 +1,5 @@
 class convertToCelsius {
-    constructor(Fahrenheit){ // Constructor takes args for conversion.
+    constructor(Fahrenheit = 32){ // Constructor takes args for conversion.
       console.log(`Converting ${Fahrenheit} into Celsius...`);
       this.temperature = Math.round(5/9 * (Fahrenheit - 32)); // Equation to convert FH -> C.
       console.log(`...Done, ${Fahrenheit} in Celsius is ${this.temperature}.`);
